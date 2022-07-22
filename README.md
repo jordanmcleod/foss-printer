@@ -74,7 +74,7 @@ Presently, without discussion, it is yet undetermined for which media the printe
   - Hardware:
     - standard platform; e.g., Rasperry Pi
       - allows, depending on model, multiple connectivity sources: BT, Ethernet, USB, WiFi
-    - FOSS modling prjects are highly encouraged for schematics
+    - FOSS modling projects are highly encouraged for schematics
       - [FreeCAD](https://www.freecadweb.org/downloads.php)
       - [SolveSpace](https://solvespace.com/download.pl)
     - Tests
