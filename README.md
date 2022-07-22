@@ -11,12 +11,12 @@ Presently, this project will be split into the following paths:
 - research of components
   - controllers
   - print system
-    - jet 
-    - laser 
+    - jet (ink)
+    - laser (powder)
     - phaser (wax) 
-    - thermal
+    - thermal (paper)
 
-## foss-printer/media
+## foss-printer/print-mediums
 - research of print medium
   - liquid ink
     - viscosity
@@ -58,6 +58,9 @@ Presently, without discussion, it is yet undetermined for which media the printe
     - implementation test plan documentation
   - Hardware:
     - standard platform; e.g., Rasperry Pi
+    - FOSS modling prjects are highly encouraged for schematics
+      - [FreeCAD](https://www.freecadweb.org/downloads.php)
+      - [SolveSpace](https://solvespace.com/download.pl)
   - Media:
     - liquid ink (jet)
     - powdered ink (laser)
