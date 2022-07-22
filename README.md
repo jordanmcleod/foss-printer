@@ -10,6 +10,10 @@ Presently, this project will be split into the following paths:
 - /hardware
 - /print-mediums
 - /software
+- /templates
+  - design requirements documentation (to be created)
+  - design implementation documentation (to be created)
+  - implementation test plan documentation (to be created)
 
 ## foss-printer/hardware
 - hardware design and schematics
