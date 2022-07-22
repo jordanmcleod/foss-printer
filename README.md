@@ -25,19 +25,25 @@ Presently, this project will be split into the following paths:
     - phaser (wax) 
     - thermal (paper)
 
-## foss-printer/print-mediums
-- research of print medium
+## foss-printer/print-media
+- research of print media
   - liquid ink
-    - viscosity
+    - cartridge
+    - print heads
     - pigment colors
+    - viscosity
   - powdered ink
+    - cartridge
     - particle sizes
     - pigment colors
+    - print heads
   - thermal
-    - temperature
     - "paper"
+    - print heads
+    - temperature
   - wax blocks
     - composition
+    - print heads
     - sizes
 
 ## foss-printer/software
@@ -55,7 +61,7 @@ This project seeks to be easily accessible, even to novice contributors.  As suc
 
 Python 3 is the preferred language.  Additionally, unittests of individual methods and workflow testing of multiple classes is desired via pytest to encourage CI/CD.  Although each method requires an initial unittest, it will likely be more beneficial for test cases to be written or enhanced by contributors that are not the author of the original method so that less bias is introduced when testing methods and workflows.
 
-It may be easiest to begin with a standard, well-documented platform, such as a Raspberry Pi, to act as a controller for a printer.
+It may be easiest to begin with a standard, well-documented platform, such as a Raspberry Pi, to act as a controller for a printer.  A Raspberry Pi would allow, depending on its model, connectivity over multiple sources.
 
 Presently, without discussion, it is yet undetermined for which media the printer will support initially.  Optimally, in the future, slight build modifications will allow any of the four (liquid ink, powdered ink, thermal, wax) types of printer media to be used when building this printer.
 
@@ -67,10 +73,12 @@ Presently, without discussion, it is yet undetermined for which media the printe
     - implementation test plan documentation
   - Hardware:
     - standard platform; e.g., Rasperry Pi
+      - allows, depending on model, multiple connectivity sources: BT, Ethernet, USB, WiFi
     - FOSS modling prjects are highly encouraged for schematics
       - [FreeCAD](https://www.freecadweb.org/downloads.php)
       - [SolveSpace](https://solvespace.com/download.pl)
-  - Media:
+    - Tests
+  - Print Media:
     - liquid ink (jet)
     - powdered ink (laser)
     - thermal ("receipt" paper)
