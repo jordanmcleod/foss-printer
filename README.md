@@ -75,3 +75,8 @@ Presently, without discussion, it is yet undetermined for which media the printe
     - Tests:
       - Each method requires a unittest
       - Each workflow requires a test
+
+
+# Disclaimer
+
+I have created this project in a public space so that, hopefully, a community will develop around it.  I do not have enough specialized knowledge to undertake this on my own.  I have had this idea for a long time as well as some other projects, which should have FOSS-aligned, maintained alternatives, that do not yet exist.
