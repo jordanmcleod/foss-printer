@@ -31,3 +31,29 @@ Presently, this project will be split into the following paths:
   - wax blocks
     - composition
     - sizes
+
+# Standards
+
+This project seeks to be easily accessible, even to novice contributors.  As such, all design decisions for hardware and software need to be documented using the design documention and requirement templates, which will ease the eventual burden of writing and maintaining a comprehensive manual for building and operation of the desired product.
+
+Python 3 is the preferred language.  Additionally, unittests of individual methods and workflow testing of multiple classes is desired via pytest to encourage CI/CD.  Although each method requires an initial unittest, it will likely be more beneficial for test cases to be written or enhanced by contributors that are not the author of the original method so that less bias is introduced when testing methods and workflows.
+
+It may be easiest to begin with a standard, well-documented platform, such as a Raspberry Pi, to act as a controller for a printer.
+
+
+- Summary:
+  - Documentation: 
+    - design requirements documentation
+    - design implementation documentation
+    - implementation test plan documentation
+  - Hardware:
+    - standard platform; e.g., Rasperry Pi
+  - Software:
+    - Languages: 
+      - Python 3.10+
+        - Linter: TBD
+        - Formatter: TBD
+      - MySQL
+    - Tests:
+      - Each method requires a unittest
+      - Each workflow requires a test
