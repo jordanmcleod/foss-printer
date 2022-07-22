@@ -16,10 +16,6 @@ Presently, this project will be split into the following paths:
     - phaser (wax) 
     - thermal
 
-## foss-printer/software
-- drivers
-- GUI
-
 ## foss-printer/media
 - research of print medium
   - liquid ink
@@ -28,17 +24,31 @@ Presently, this project will be split into the following paths:
   - powdered ink
     - particle sizes
     - pigment colors
+  - thermal
+    - temperature
+    - "paper"
   - wax blocks
     - composition
     - sizes
 
+## foss-printer/software
+- drivers
+- GUI
+
+## foss-printer/tests
+- unittests
+- workflow tests
+
+
 # Standards
 
-This project seeks to be easily accessible, even to novice contributors.  As such, all design decisions for hardware and software need to be documented using the design documention and requirement templates, which will ease the eventual burden of writing and maintaining a comprehensive manual for building and operation of the desired product.
+This project seeks to be easily accessible, even to novice contributors.  As such, all design decisions for hardware and software need to be documented using the design documention templates, which will ease the eventual burden of writing and maintaining a comprehensive manual (or wiki) for building and operation of the desired product.
 
 Python 3 is the preferred language.  Additionally, unittests of individual methods and workflow testing of multiple classes is desired via pytest to encourage CI/CD.  Although each method requires an initial unittest, it will likely be more beneficial for test cases to be written or enhanced by contributors that are not the author of the original method so that less bias is introduced when testing methods and workflows.
 
 It may be easiest to begin with a standard, well-documented platform, such as a Raspberry Pi, to act as a controller for a printer.
+
+Presently, without discussion, it is yet undetermined for which media the printer will support initially.  Optimally, in the future, slight build modifications will allow any of the four (liquid ink, powdered ink, thermal, wax) types of printer media to be used when building this printer.
 
 
 - Summary:
@@ -48,6 +58,11 @@ It may be easiest to begin with a standard, well-documented platform, such as a 
     - implementation test plan documentation
   - Hardware:
     - standard platform; e.g., Rasperry Pi
+  - Media:
+    - liquid ink (jet)
+    - powdered ink (laser)
+    - thermal ("receipt" paper)
+    - wax (phaser)
   - Software:
     - Languages: 
       - Python 3.10+
