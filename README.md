@@ -6,6 +6,11 @@ The intial phases of this project will be to design a printer using parts that c
 
 Presently, this project will be split into the following paths:
 
+## foss-printer/docs
+- /hardware
+- /print-mediums
+- /software
+
 ## foss-printer/hardware
 - hardware design and schematics
 - research of components
@@ -73,6 +78,7 @@ Presently, without discussion, it is yet undetermined for which media the printe
         - Formatter: TBD
       - MySQL
     - Tests:
+      - each test name is preceeded by "test_"
       - Each method requires a unittest
       - Each workflow requires a test
 
